@@ -373,11 +373,11 @@
     ></script>
 
     <script>
-      // Get the current year for the copyright
+      /* Get the current year for the copyright */
       $('#year').text(new Date().getFullYear());
-      // Init Scrollspy
+      /* Init Scrollspy */
       $('body').scrollspy({ target: '#main-nav' });
-      //Smooth Scrolling
+      /* Smooth Scrolling */
       $('#main-nav a').on('click', function (event) {
         if (this.hash !== '') {
           event.preventDefault();
